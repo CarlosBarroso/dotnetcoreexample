@@ -1,31 +1,17 @@
 node('DOTNETCORE'){
-	pipeline{
-		stages {
-			stage('SCM'){
-				steps {
-					checout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations:false, extension: [], submodueCfg: [], userRemoteConfigs: [[url: 'https://github.com/CarlosBarroso/dotnetcoreexample']]])
-				}
-			}
-			stage('build'){
-				steps {
-					sh 'dotnet build ConsoleApp1'
-				}
-			}
-			stage('test'){
-				steps {
-					echo 'execute tests'
-				}
-			}
-			stage('package'){
-				steps {
-					echo 'package'
-				}
-			}
-			stage('deploy'){
-				steps {
-					echo 'deploy'
-				}
-			}
-		}
+	stage('SCM'){
+		checout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations:false, extension: [], submodueCfg: [], userRemoteConfigs: [[url: 'https://github.com/CarlosBarroso/dotnetcoreexample']]])
+	}
+	stage('build'){
+		sh 'dotnet build ConsoleApp1'
+	}
+	stage('test'){
+		echo 'execute tests'
+	}
+	stage('package'){
+		echo 'package'
+	}
+	stage('deploy'){
+		echo 'deploy'
 	}
 }
