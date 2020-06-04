@@ -1,0 +1,111 @@
+git, jenkins.
+
+jenkins
+declarative jenkins
+
+python
+ruby
+kubernetes
+gemcharts (terraform para kubernetes)
+
+Dockers
+
+
+Plan formativo de cada uno
+cris: (cursos, duración, estado, cual es el siguiente...) seguimiento
+dani: (altasian)
+yo: 
+
+
+cuando lo van a terminar y cual es el siguiente.
+
+actualizar el cv segun termine cursos
+
+plan formacion cris
+------------------------
+Objetivo 1: Mejorar las habilidades de desarrollo .net 
+- Step 1: adquirir / afianzar conocimientos de patrones de diseño y princpios solid (Cursos, horas del curso y fechas)
+- Step 2: adquirir / profundizar conocimientos backend y api restful-concerns/table-of-contents (Cursos, horas del curso y fechas)
+- Step 3: adquirir / profundizar conocimientos de testing (Cursos, horas del curso y fechas)
+- Step 4: adquirir / afianzar conocimientos de DDD (Cursos, horas del curso y fechas)
+
+Objetivo 2: adquirir conocimiento data science 
+- Step 1: conocimientos basicos python (Cursos, horas del curso y fechas)
+- Step 2: introduccion data science (Cursos, horas del curso y fechas)
+- Step 3: conocimientos avanzados python (Cursos, horas del curso y fechas)
+- Step 4: conocimientos avanzados data science (Cursos, horas del curso y fechas)
+
+
+.net y net core
+-- patrones de diseño y principios solid
+https://app.pluralsight.com/library/courses/using-dependency-injection-on-ramp/table-of-contents
+https://app.pluralsight.com/library/courses/csharp-solid-principles/table-of-contents
+https://app.pluralsight.com/library/courses/csharp-defensive-coding/table-of-contents
+
+-- testing
+https://app.pluralsight.com/library/courses/nunit-3-dotnet-testing-introduction/table-of-contents
+https://app.pluralsight.com/library/courses/nunit-moq-mocking/table-of-contents
+https://app.pluralsight.com/library/courses/specflow-2-0-business-readable-automated-tests/table-of-contents
+https://app.pluralsight.com/library/courses/selenium-specflow-automated-business-readable-web-tests/table-of-contents
+
+-- net core
+https://app.pluralsight.com/library/courses/building-async-api-aspdotnet-core/table-of-contents
+https://app.pluralsight.com/library/courses/asp-dot-net-core-3-advanced-restful-concerns/table-of-contents
+
+data science
+-- python
+https://app.pluralsight.com/library/courses/getting-started-python-core/table-of-contents
+https://app.pluralsight.com/library/courses/python-beyond-basics/table-of-contents
+-- data
+???
+
+
+
+
+
+plan formacion Carlos
+------------------------
+Objetivo 1: Mejorar las habilidades de devops
+
+- Step 1: Adquirir conocimientos de Python (Cursos, horas del curso y fechas)
+    Core Python: Getting Started (4h 6m)                       **hecho
+    Python: The Big Picture (1h 5m)                            **hecho
+    Beyond the Basics (7h 22m)                                 en curso -> 5/6/2020
+    Core Python: Functions and Functional Programming (1h 18m) 5/6/2020
+	Advanced Python (3h 53m)                                   12/6/2020
+
+- Step 2: Git (12h)
+    Git: The Big Picture (1h 6m)         **hecho
+    Getting Started with Git (2h 2m)     **hecho
+    How Git Works (1h 48m)               **hecho
+	Working with Git Branches (1h 18m)   **hecho
+    Git Administration (1h 19m)          **hecho
+    Advanced Git Techniques (1h 21m)     **hecho
+    Mastering Git (2h 42m)               **hecho
+
+- Step 3: jenkins (Cursos, horas del curso y fechas)
+    Getting Started with Jenkins 2 (3h 36m)                **hecho
+    Using Declarative Jenkins Pipelines (2h 5m)            en curso -> 5/6/2020
+	Groovy: Getting Started (1h 18m)                       5/6/2020
+	Building a Modern CI/CD Pipeline with Jenkins (1h 47m) 12/06/2020
+	Automating Jenkins with Groovy (2h 1m)                 19/06/2020
+	Groovy Fundamentals (3h 37m)
+
+- Step 4: docker (Cursos, horas del curso y fechas)
+    Docker and Kubernetes: The Big Picture (1h 47m) **hecho
+    Getting Started with Docker (2h 12m)            en curso 5/6/2020
+    Getting Started with Docker on Windows (5h 41m) 12/06/2020
+    Docker for Web Developers (5h 52m)              19/06/06
+    Docker Deep Dive (4h 35m)
+
+- Step 5: Kubernetes (Cursos, horas del curso y fechas)
+    Kubernetes Installation and Configuration Fundamentals (2h 37m) 26/6/2020
+
+- Step 6: Jira (Cursos, horas del curso y fechas)
+    Jira: Getting Started (2h 37m)             19/06/2020     
+    JIRA Fundamentals (2h 11m)                 26/06/06
+    Jira Integrations(1h 54m)                  03/07/06
+	Jira Workflow Creation and Customization(1h 50m)
+
+- Step 7: Confluence (Cursos, horas del curso y fechas)
+    Confluence: Getting Started (2h 14m)       26/06/2020
