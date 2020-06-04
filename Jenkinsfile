@@ -1,4 +1,4 @@
-node('DOTNETCORE'){
+node('dotnetcore'){
 	stage('SCM'){
 		checout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations:false, extension: [], submodueCfg: [], userRemoteConfigs: [[url: 'https://github.com/CarlosBarroso/dotnetcoreexample']]])
 	}
