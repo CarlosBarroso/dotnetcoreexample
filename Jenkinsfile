@@ -17,4 +17,7 @@ node('dotnetcore'){
 	stage('deploy'){
 		echo 'deploy'
 	}
+	stage('Archive'){
+		archiveArtifacts artifacts: 'consoleApp1/*.*'
+	}
 }
