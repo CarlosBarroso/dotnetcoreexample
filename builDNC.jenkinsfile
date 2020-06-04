@@ -5,7 +5,7 @@ node('docker'){
 		checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submodulefg: [], userRemoteConfigs: [[url: 'https://github.com/CarlosBarroso/dotnetcoreexample']]]);
 	}
 	stage('build'){
-		dockerImage = docker.build('cbarrosoc/agent-dnc:v$BUILD_NUMBER', './dotnetcore/dotnetcore.Dockerfile');
+		dockerImage = docker.build('cbarrosoc/agent-dnc:v$BUILD_NUMBER', './dotnetcore');
 	}
 	stage('push'){
 		docker.withRegistry('', 'dockerhubcreds'){
