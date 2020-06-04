@@ -1,5 +1,5 @@
-pipeline{
-	node('DOTNETCORE'){
+node('DOTNETCORE'){
+	pipeline{
 		stages {
 			stage('SCM'){
 				steps {
