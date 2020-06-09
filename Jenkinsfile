@@ -5,6 +5,7 @@ node('dotnetcore'){
 	}
 	stage('pre-build'){
 		sh 'dotnet --info'
+		
 	}
 	stage('build'){
 		sh 'dotnet build ConsoleApp1'
